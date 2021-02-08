@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoList App</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <p>ToDoList Application</p>
+        <p>Created By: Mohammed Shilleh</p>
+
+        <input id="add-task-input" type="text" placeholder="Add Task" />
+      </header>
+
+      <div class="tasks">
+        <div class="new-tasks" data-task-status="new">
+          <p>New</p>
+        </div>
+
+        <div class="active-tasks" data-task-status="active">
+          <p>Active</p>
+        </div>
+
+        <div class="completed-tasks" data-task-status="completed">
+          <p>Completed</p>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" defer src="./JS/header.js"></script>
+    <script type="module" defer src="./JS/index.js"></script>
+  </body>
+</html>
